@@ -44,7 +44,7 @@ function show () {
 
     /*This tells the browser how to display the todo
     array after an item has been removed */
-    var buttons = document.getElementsByName('remove');
+    var buttons = document.getElementsByClassName('remove');
     for (var i = 0; i < buttons.length; i++)
     buttons[i].addEventListener('click', remove);
 };
